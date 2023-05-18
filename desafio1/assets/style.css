@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+#plano-de-fundo{
+    background-color: hsl(212, 45%, 89%);
+    width: 40vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#cartao-qr-code{
+    width: 15vw;
+    height: 55vh;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+#image-qr-code{
+    border-radius: 15px;
+    width: 200px;
+    padding: 7px;
+}
+
+.primeiro-texto{
+    text-align: center;
+    font-size: 15px;
+    color:hsl(218, 44%, 22%);
+}
+
+.segundo-texto{
+    text-align: center;
+    font-size: 10px;
+    color: hsl(212, 45%, 89%);
+}
